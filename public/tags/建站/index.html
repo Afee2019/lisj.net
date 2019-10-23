@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    <title>
+      
+      建站 - 李绍俊 - 技术博客
+      
+		</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="alternate" type="application/rss&#43;xml" href="https://example.org/tags/%E5%BB%BA%E7%AB%99/index.xml">
+    
+    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/icons.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    
+    <link href="https://fonts.loli.net/css?family=Bree+Serif|Lato:100,100i,300,300i,400,400i,700,700i|Source+Code+Pro:300,400,500,700" rel="stylesheet">
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/bigfoot/dist/bigfoot.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/bigfoot/dist/bigfoot-number.css" />
+    <script type="text/javascript">
+        $.bigfoot();
+    </script>
+    
+    
+</head>
+
+    <body class="tag-template">
+        <header class="main-header">
+	<div class="main-header-content">
+		<h1 class="blog-title">
+			<a href="/">
+				
+           李绍俊 - 技术博客
+				
+			</a>
+		</h1>
+		<h2 class="blog-description">李绍俊 - 技术博客</h2>
+	</div>
+
+	<div class="nav">
+    
+		
+      <a class="nav- " role="presentation" href="/post/migrate-from-jekyll/">Migrating from Jekyll</a>
+		
+      <a class="nav- " role="presentation" href="/post/blog/hugo-make/"></a>
+		
+      <a class="nav- " role="presentation" href="/about/">About Hugo</a>
+		
+      <a class="nav- " role="presentation" href="/post/hugoisforlovers/">Getting Started</a>
+		
+	</div>
+</header>
+
+        
+
+<main class="content" role="main">
+  
+    
+      <h2 class="tag-title">建站</h2>
+    
+  
+
+	<div class="extra-pagination">
+	    
+
+<nav class="pagination" role="navigation">
+    
+    <span class="page-number">Page 1 of 1</span>
+    
+</nav>
+
+	</div>
+  
+  <article class="post">
+	<header class="post-header">
+    
+		<h2 class="post-title"><a href="/post/blog/hugo-make/"></a></h2>
+	</header>
+	<section class="post-excerpt">
+    <p>
+      使用HUGO搭建个人博客 Hugo是一个用Go编写的静态站点生成器，由于具有丰富的主题资源和惊人的生成速度而备受青睐。本博客即是基于Hugo搭建，下面讲述一下我的建站历程以及踩的几个大坑（此处手动Doge…）。
+安装Hugo以及生成第一篇文章 安装Hugo 如果你是macOS用户，请使用Homebrew快速安装
+brew install hugo 1  如果你是Windows用户，请使用Chocolatey或者Scoop快速安装，取决于你使用什么包管理
+choco install hugo -confirm 1 scoop install hugo 1  如果你是Debian或Ubuntu用户，请使用apt快速安装
+sudo apt-get install hugo 1  基本上使用单行命令都可以成功安装Hugo，具体请移步这里。
+生成文章 使用如下命令新建一个名为“mysite”的网站：
+hugo new site mysite 1  接下来，在这里找到一个漂亮的网站主题。相信我，Hugo的主题海洋会让你纠结到死……经过一番激烈的挣扎，我最终还是投靠给了Casper，没有什么能比一张大图占据整个屏幕带来的冲击感更强了……（说不定过段时间我又折腾着换别的主题了……）。言归正传，以Casper为例，将主题clone到本地的themes文件夹内，执行以下两句即可：
+cd themes git clone https://github.com/vjeantet/hugo-theme-casper.git casper 12  mysite/content是用来存放文档的地方，我们在其下建立一个新的Markdown文件：
+hugo new post/first.md 1  在first.md中写入一些内容，使用如下命令进行本地预览：
+hugo server -t casper -D 1  几乎瞬间编译成功，打开网址 http://localhost:1313/ 即可查看本地生成的静态网站。
+适配主题 Hugo的每个主题都会有不同的参数配置，而这些配置被存放在根目录下的config.toml文件中，对于Casper主题，官方的GitHub中已经对此作了说明，以下是我的配置：
+BaseUrl= &quot;https://shanetian.github.io/&quot; LanguageCode= &quot;zh-cn&quot; Title= &quot;I am thinking . &hellip; <a class="read-more" href="/post/blog/hugo-make/">&raquo;</a>
+    </p>
+	</section>
+	<footer class="post-meta">
+    <time class="post-date">2019-10-23</time>
+	</footer>
+</article>
+
+  
+  
+
+<nav class="pagination" role="navigation">
+    
+    <span class="page-number">Page 1 of 1</span>
+    
+</nav>
+
+</main>
+
+        <footer class="site-footer">
+  <section class="rss"><a class="subscribe-button icon-feed" href="/index.xml"></a></section>
+  <section class="twitter"><a class="icon-twitter" href="https://twitter.com/example"> example</a></section>
+  <section class="facebook"><a class="icon-facebook" href="https://www.facebook.com/example"> example</a></section>
+  <section class="copyright">&copy; 2019 李绍俊 - 技术博客</section>
+  <section class="poweredby"><a href="https://github.com/nirocfz/arabica">Arabica</a> theme by Sean Lunsford. Published with <a href="https://gohugo.io">Hugo</a>.</section>
+</footer>
+
+
+
+    </body>
+</html>

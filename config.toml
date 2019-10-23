@@ -1,0 +1,13 @@
+baseurl = "https://example.org/"
+LanguageCode= "zh-cn"
+title = "李绍俊 - 技术博客"
+author = "李绍俊"
+paginate = 10
+theme = "arabica"
+
+[params]
+    description = "李绍俊 - 技术博客"
+    dateFormatToUse = "2006-01-02"
+    replaceGoogleFonts = "fonts.loli.net"
+    twitter = "example"
+    facebook = "example"
