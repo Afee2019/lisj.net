@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on 李绍俊 - 技术博客</title>
-    <link>https://example.org/categories/hugo/</link>
+    <link>https://lisj.net/categories/hugo/</link>
     <description>Recent content in hugo on 李绍俊 - 技术博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 23 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.org/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lisj.net/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://example.org/post/blog/hugo-make/</link>
+      <link>https://lisj.net/post/blog/hugo-make/</link>
       <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/post/blog/hugo-make/</guid>
+      <guid>https://lisj.net/post/blog/hugo-make/</guid>
       <description>使用HUGO搭建个人博客 Hugo是一个用Go编写的静态站点生成器，由于具有丰富的主题资源和惊人的生成速度而备受青睐。本博客即是基于Hugo搭建，下面讲述一下我的建站历程以及踩的几个大坑（此处手动Doge…）。
 安装Hugo以及生成第一篇文章 安装Hugo 如果你是macOS用户，请使用Homebrew快速安装
 brew install hugo 1  如果你是Windows用户，请使用Chocolatey或者Scoop快速安装，取决于你使用什么包管理

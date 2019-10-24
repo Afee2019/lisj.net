@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 李绍俊 - 技术博客</title>
-    <link>https://example.org/tags/</link>
+    <link>https://lisj.net/tags/</link>
     <description>Recent content in Tags on 李绍俊 - 技术博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 23 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lisj.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>blog</title>
-      <link>https://example.org/tags/blog/</link>
+      <link>https://lisj.net/tags/blog/</link>
       <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/tags/blog/</guid>
+      <guid>https://lisj.net/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://example.org/tags/go/</link>
+      <link>https://lisj.net/tags/go/</link>
       <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/tags/go/</guid>
+      <guid>https://lisj.net/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://example.org/tags/hugo/</link>
+      <link>https://lisj.net/tags/hugo/</link>
       <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/tags/hugo/</guid>
+      <guid>https://lisj.net/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>建站</title>
-      <link>https://example.org/tags/%E5%BB%BA%E7%AB%99/</link>
+      <link>https://lisj.net/tags/%E5%BB%BA%E7%AB%99/</link>
       <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/tags/%E5%BB%BA%E7%AB%99/</guid>
+      <guid>https://lisj.net/tags/%E5%BB%BA%E7%AB%99/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://example.org/tags/development/</link>
+      <link>https://lisj.net/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/tags/development/</guid>
+      <guid>https://lisj.net/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://example.org/tags/golang/</link>
+      <link>https://lisj.net/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/tags/golang/</guid>
+      <guid>https://lisj.net/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>https://example.org/tags/templates/</link>
+      <link>https://lisj.net/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/tags/templates/</guid>
+      <guid>https://lisj.net/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://example.org/tags/themes/</link>
+      <link>https://lisj.net/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/tags/themes/</guid>
+      <guid>https://lisj.net/tags/themes/</guid>
       <description></description>
     </item>
     
